@@ -27,6 +27,8 @@ static void usage(const char *prog)
 	fprintf(stderr, "  %s THREADS N [iters]\n", prog);
 	fprintf(stderr, "  %s THREADS <c2c|r2c|c2r|r2r> <1|2|3> N [iters]\n", prog);
 	fprintf(stderr, "\n");
+	fprintf(stderr, "Use THREADS=1 for a single-threaded benchmark.\n");
+	fprintf(stderr, "\n");
 	fprintf(stderr, "Examples:\n");
 	fprintf(stderr, "  %s 4 64 100\n", prog);
 	fprintf(stderr, "  %s 8 c2c 2 256 50\n", prog);
