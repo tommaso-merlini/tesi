@@ -8,6 +8,7 @@
 #include "bench-precision.h"
 
 static int thread_count;
+static int warmup_iters = 3;
 
 static double seconds(void)
 {
@@ -24,14 +25,14 @@ static double seconds(void)
 static void usage(const char *prog)
 {
 	fprintf(stderr, "Usage:\n");
-	fprintf(stderr, "  %s THREADS N [iters]\n", prog);
-	fprintf(stderr, "  %s THREADS <c2c|r2c|c2r|r2r> <1|2|3> N [iters]\n", prog);
+	fprintf(stderr, "  %s THREADS N [iters [warmup]]\n", prog);
+	fprintf(stderr, "  %s THREADS <c2c|r2c|c2r|r2r> <1|2|3> N [iters [warmup]]\n", prog);
 	fprintf(stderr, "\n");
 	fprintf(stderr, "Use THREADS=1 for a single-threaded benchmark.\n");
 	fprintf(stderr, "\n");
 	fprintf(stderr, "Examples:\n");
-	fprintf(stderr, "  %s 4 64 100\n", prog);
-	fprintf(stderr, "  %s 8 c2c 2 256 50\n", prog);
+	fprintf(stderr, "  %s 4 64 100 3\n", prog);
+	fprintf(stderr, "  %s 8 c2c 2 256 50 5\n", prog);
 	exit(1);
 }
 
@@ -87,9 +88,9 @@ static int bench_c2c(int rank, int n, int iters)
 
 	fill_complex(in, total);
 
-	if (rank == 1) p = BENCH_FFTW(plan_dft_1d)(n, in, out, FFTW_FORWARD, FFTW_ESTIMATE);
-	else if (rank == 2) p = BENCH_FFTW(plan_dft_2d)(n, n, in, out, FFTW_FORWARD, FFTW_ESTIMATE);
-	else p = BENCH_FFTW(plan_dft_3d)(n, n, n, in, out, FFTW_FORWARD, FFTW_ESTIMATE);
+	if (rank == 1) p = BENCH_FFTW(plan_dft_1d)(n, in, out, FFTW_FORWARD, FFTW_MEASURE);
+	else if (rank == 2) p = BENCH_FFTW(plan_dft_2d)(n, n, in, out, FFTW_FORWARD, FFTW_MEASURE);
+	else p = BENCH_FFTW(plan_dft_3d)(n, n, n, in, out, FFTW_FORWARD, FFTW_MEASURE);
 
 	if (!p) {
 		fprintf(stderr, "plan creation failed for c2c rank %d size %d\n", rank, n);
@@ -97,6 +98,8 @@ static int bench_c2c(int rank, int n, int iters)
 		BENCH_FFTW(free)(out);
 		return 1;
 	}
+
+	for (i = 0; i < warmup_iters; ++i) BENCH_FFTW(execute)(p);
 
 	t0 = seconds();
 	for (i = 0; i < iters; ++i) BENCH_FFTW(execute)(p);
@@ -138,9 +141,9 @@ static int bench_r2c(int rank, int n, int iters)
 
 	fill_real(in, in_total);
 
-	if (rank == 1) p = BENCH_FFTW(plan_dft_r2c_1d)(n, in, out, FFTW_ESTIMATE);
-	else if (rank == 2) p = BENCH_FFTW(plan_dft_r2c_2d)(n, n, in, out, FFTW_ESTIMATE);
-	else p = BENCH_FFTW(plan_dft_r2c_3d)(n, n, n, in, out, FFTW_ESTIMATE);
+	if (rank == 1) p = BENCH_FFTW(plan_dft_r2c_1d)(n, in, out, FFTW_MEASURE);
+	else if (rank == 2) p = BENCH_FFTW(plan_dft_r2c_2d)(n, n, in, out, FFTW_MEASURE);
+	else p = BENCH_FFTW(plan_dft_r2c_3d)(n, n, n, in, out, FFTW_MEASURE);
 
 	if (!p) {
 		fprintf(stderr, "plan creation failed for r2c rank %d size %d\n", rank, n);
@@ -148,6 +151,8 @@ static int bench_r2c(int rank, int n, int iters)
 		BENCH_FFTW(free)(out);
 		return 1;
 	}
+
+	for (i = 0; i < warmup_iters; ++i) BENCH_FFTW(execute)(p);
 
 	t0 = seconds();
 	for (i = 0; i < iters; ++i) BENCH_FFTW(execute)(p);
@@ -189,9 +194,9 @@ static int bench_c2r(int rank, int n, int iters)
 
 	fill_complex(in, in_total);
 
-	if (rank == 1) p = BENCH_FFTW(plan_dft_c2r_1d)(n, in, out, FFTW_ESTIMATE);
-	else if (rank == 2) p = BENCH_FFTW(plan_dft_c2r_2d)(n, n, in, out, FFTW_ESTIMATE);
-	else p = BENCH_FFTW(plan_dft_c2r_3d)(n, n, n, in, out, FFTW_ESTIMATE);
+	if (rank == 1) p = BENCH_FFTW(plan_dft_c2r_1d)(n, in, out, FFTW_MEASURE);
+	else if (rank == 2) p = BENCH_FFTW(plan_dft_c2r_2d)(n, n, in, out, FFTW_MEASURE);
+	else p = BENCH_FFTW(plan_dft_c2r_3d)(n, n, n, in, out, FFTW_MEASURE);
 
 	if (!p) {
 		fprintf(stderr, "plan creation failed for c2r rank %d size %d\n", rank, n);
@@ -199,6 +204,8 @@ static int bench_c2r(int rank, int n, int iters)
 		BENCH_FFTW(free)(out);
 		return 1;
 	}
+
+	for (i = 0; i < warmup_iters; ++i) BENCH_FFTW(execute)(p);
 
 	t0 = seconds();
 	for (i = 0; i < iters; ++i) BENCH_FFTW(execute)(p);
@@ -234,9 +241,9 @@ static int bench_r2r(int rank, int n, int iters)
 
 	fill_real(in, total);
 
-	if (rank == 1) p = BENCH_FFTW(plan_r2r_1d)(n, in, out, FFTW_REDFT10, FFTW_ESTIMATE);
-	else if (rank == 2) p = BENCH_FFTW(plan_r2r_2d)(n, n, in, out, FFTW_REDFT10, FFTW_REDFT10, FFTW_ESTIMATE);
-	else p = BENCH_FFTW(plan_r2r_3d)(n, n, n, in, out, FFTW_REDFT10, FFTW_REDFT10, FFTW_REDFT10, FFTW_ESTIMATE);
+	if (rank == 1) p = BENCH_FFTW(plan_r2r_1d)(n, in, out, FFTW_REDFT10, FFTW_MEASURE);
+	else if (rank == 2) p = BENCH_FFTW(plan_r2r_2d)(n, n, in, out, FFTW_REDFT10, FFTW_REDFT10, FFTW_MEASURE);
+	else p = BENCH_FFTW(plan_r2r_3d)(n, n, n, in, out, FFTW_REDFT10, FFTW_REDFT10, FFTW_REDFT10, FFTW_MEASURE);
 
 	if (!p) {
 		fprintf(stderr, "plan creation failed for r2r rank %d size %d\n", rank, n);
@@ -244,6 +251,8 @@ static int bench_r2r(int rank, int n, int iters)
 		BENCH_FFTW(free)(out);
 		return 1;
 	}
+
+	for (i = 0; i < warmup_iters; ++i) BENCH_FFTW(execute)(p);
 
 	t0 = seconds();
 	for (i = 0; i < iters; ++i) BENCH_FFTW(execute)(p);
@@ -275,7 +284,7 @@ static int run_all(const char *prog, int n, int iters)
 	size_t mode;
 	int rank;
 
-	printf("N = %d, iterations = %d, threads = %d\n", n, iters, thread_count);
+	printf("N = %d, iterations = %d, warmup = %d, threads = %d\n", n, iters, warmup_iters, thread_count);
 	for (mode = 0; mode < sizeof(modes) / sizeof(modes[0]); ++mode) {
 		for (rank = 1; rank <= 3; ++rank) {
 			if (run_case(prog, modes[mode], rank, n, iters) != 0) return 1;
@@ -302,24 +311,22 @@ int main(int argc, char **argv)
 	}
 	BENCH_FFTW(plan_with_nthreads)(thread_count);
 
-	if (argc == 3 || argc == 4) {
+	if (argc == 3 || argc == 4 || argc == 5) {
 		n = atoi(argv[2]);
-		if (argc == 4) iters = atoi(argv[3]);
-		if (n <= 0 || iters <= 0) usage(argv[0]);
+		if (argc >= 4) iters = atoi(argv[3]);
+		if (argc == 5) warmup_iters = atoi(argv[4]);
+		if (n <= 0 || iters <= 0 || warmup_iters < 0) usage(argv[0]);
 		status = run_all(argv[0], n, iters);
 	} else if (argc == 6 || argc == 7) {
 		const char *mode = argv[2];
 		int rank = atoi(argv[3]);
 
 		n = atoi(argv[4]);
-		if (argc == 6) iters = atoi(argv[5]);
-		if (argc == 7) usage(argv[0]);
-		status = run_case(argv[0], mode, rank, n, iters);
-	} else if (argc == 5) {
-		const char *mode = argv[2];
-		int rank = atoi(argv[3]);
-
-		n = atoi(argv[4]);
+		iters = atoi(argv[5]);
+		if (argc == 7) {
+			warmup_iters = atoi(argv[6]);
+		}
+		if (n <= 0 || iters <= 0 || warmup_iters < 0) usage(argv[0]);
 		status = run_case(argv[0], mode, rank, n, iters);
 	} else {
 		usage(argv[0]);
