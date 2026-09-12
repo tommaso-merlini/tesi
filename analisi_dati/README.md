@@ -44,7 +44,7 @@ Quattro combinazioni, ciascuna con la stessa struttura. Ogni immagine contiene c
 
 Confrontare i punti condivisi tra sistemi. I tempi sono medie di 100 iterazioni, senza intervalli di confidenza.
 
-Per rigenerare, dalla cartella `avanti`:
+Per rigenerare i grafici:
 
 ```bash
 python3 analisi_dati/plot.py
