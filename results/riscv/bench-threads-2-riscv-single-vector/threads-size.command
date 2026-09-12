@@ -1,0 +1,1 @@
+env -u BENCH_SCALE_MODE -u BENCH_SCRIPT_NAME bash /home/gmalenza/tommaso/tesi/scale-threads-size.sh --benchmark /home/gmalenza/tommaso/tesi/benchmark-builds/riscv/bench-threads-2-riscv-single-vector --transforms c2c\,r2c\,c2r\,r2r --ranks 1\,2\,3 --iterations 100 --threads 1\,2\,4\,8\,16\,32\,64 --sizes 16\,64 

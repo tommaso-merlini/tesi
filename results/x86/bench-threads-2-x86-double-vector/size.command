@@ -1,0 +1,1 @@
+env -u BENCH_SCALE_MODE -u BENCH_SCRIPT_NAME bash /home/gmalenza/tesi/scale-size.sh --benchmark /home/gmalenza/tesi/benchmark-builds/x86/bench-threads-2-x86-double-vector --transforms c2c\,r2c\,c2r\,r2r --ranks 1\,2\,3 --iterations 100 --thread 144 --sizes 16\,64\,256\,1024\,2048 
