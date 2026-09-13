@@ -38,11 +38,13 @@ In più dimensioni, FFTW mantiene un array rettangolare e comprime solo l’ulti
 - output: `N^d reali = sN^d`
 - memoria: `2(sN^d) = 2sN^d`
 
-## Memoria massima utilizzata dai benchmark
+# Memoria massima utilizzata dai benchmark
 
-### risc-v:
+---
 
-#### threads:
+## Architettura RISC-V
+
+### Benchmark `threads`
 
 - `max N = 64`
 - `max d = 3`
@@ -54,7 +56,7 @@ In più dimensioni, FFTW mantiene un array rettangolare e comprime solo l’ulti
 
 `=> max memoria e' c2c con 8mb`
 
-#### size:
+### Benchmark `size`
 
 - `max N = 1024`
 - `max d = 3`
@@ -66,7 +68,7 @@ In più dimensioni, FFTW mantiene un array rettangolare e comprime solo l’ulti
 
 `=> max memoria e' c2c con 32gb`
 
-#### threads-size:
+### Benchmark `threads-size`
 
 - `max N = 64`
 - `max d = 3`
@@ -78,9 +80,11 @@ In più dimensioni, FFTW mantiene un array rettangolare e comprime solo l’ulti
 
 `=> max memoria e' c2c con 8mb`
 
-### x86:
+---
 
-#### threads:
+## Architettura x86
+
+### Benchmark `threads`
 
 - `max N = 64`
 - `max d = 3`
@@ -92,7 +96,7 @@ In più dimensioni, FFTW mantiene un array rettangolare e comprime solo l’ulti
 
 `=> max memoria e' c2c con 8mb`
 
-#### size:
+### Benchmark `size`
 
 - `max N = 2048`
 - `max d = 3`
@@ -104,7 +108,7 @@ In più dimensioni, FFTW mantiene un array rettangolare e comprime solo l’ulti
 
 `=> max memoria e' c2c con 256gb`
 
-#### threads-size:
+### Benchmark `threads-size`
 
 - `max N = 64`
 - `max d = 3`
@@ -116,9 +120,11 @@ In più dimensioni, FFTW mantiene un array rettangolare e comprime solo l’ulti
 
 `=> max memoria e' c2c con 8mb`
 
-### arm:
+---
 
-#### threads:
+## Architettura ARM
+
+### Benchmark `threads`
 
 - `max N = 64`
 - `max d = 3`
@@ -130,7 +136,7 @@ In più dimensioni, FFTW mantiene un array rettangolare e comprime solo l’ulti
 
 `=> max memoria e' c2c con 8mb`
 
-#### size:
+### Benchmark `size`
 
 - `max N = 1024`
 - `max d = 3`
@@ -142,7 +148,7 @@ In più dimensioni, FFTW mantiene un array rettangolare e comprime solo l’ulti
 
 `=> max memoria e' c2c con 32gb`
 
-#### threads-size:
+### Benchmark `threads-size`
 
 - `max N = 64`
 - `max d = 3`
