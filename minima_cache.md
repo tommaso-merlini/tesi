@@ -24,19 +24,7 @@ calcolo del **minimo N pari** per cui gli array di input e output del benchmark 
 | c2r | Nᵈ⁻¹(N/2 + 1) complessi | Nᵈ reali | 2s(Nᵈ + Nᵈ⁻¹) |
 | r2r | Nᵈ reali | Nᵈ reali | 2sNᵈ |
 
-## Ricerca del minimo N pari
-
-Il problema supera la capacità quando:
-
-$$
-M(N)>C
-$$
-
-quindi per trovare il primo N che occupa memoria > C usiamo
-
-$$
-M(N-2)\le C<M(N)
-$$
+---
 
 ## RISC-V
 
