@@ -1,0 +1,1 @@
+./benchmark-builds/arm/bench-threads-2-arm-double-novector 1 c2c 2 1024 30 3 

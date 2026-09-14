@@ -1,0 +1,1 @@
+./benchmark-builds/arm/bench-threads-2-arm-double-vector 64 c2c 3 256 30 3 

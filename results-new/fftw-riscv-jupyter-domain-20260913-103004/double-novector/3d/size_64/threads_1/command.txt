@@ -1,0 +1,1 @@
+./benchmark-builds/riscv/bench-threads-2-riscv-double-novector 1 c2c 3 64 30 3 

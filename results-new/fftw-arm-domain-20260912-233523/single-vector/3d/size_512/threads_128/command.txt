@@ -1,0 +1,1 @@
+./benchmark-builds/arm/bench-threads-2-arm-single-vector 128 c2c 3 512 30 3 

@@ -1,0 +1,1 @@
+c2c 2d 2048x2048 avg_seconds=0.000884629507 iterations=30 threads=32

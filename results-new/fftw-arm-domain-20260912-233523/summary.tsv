@@ -1,0 +1,1025 @@
+variant	rank	size	threads	transform	status	exit_code
+double-vector	1	512	1	c2c	ok
+0					
+double-vector	1	512	2	c2c	ok
+0					
+double-vector	1	512	4	c2c	ok
+0					
+double-vector	1	512	8	c2c	ok
+0					
+double-vector	1	512	16	c2c	ok
+0					
+double-vector	1	512	32	c2c	ok
+0					
+double-vector	1	512	64	c2c	ok
+0					
+double-vector	1	512	128	c2c	ok
+0					
+double-vector	1	1024	1	c2c	ok
+0					
+double-vector	1	1024	2	c2c	ok
+0					
+double-vector	1	1024	4	c2c	ok
+0					
+double-vector	1	1024	8	c2c	ok
+0					
+double-vector	1	1024	16	c2c	ok
+0					
+double-vector	1	1024	32	c2c	ok
+0					
+double-vector	1	1024	64	c2c	ok
+0					
+double-vector	1	1024	128	c2c	ok
+0					
+double-vector	1	2048	1	c2c	ok
+0					
+double-vector	1	2048	2	c2c	ok
+0					
+double-vector	1	2048	4	c2c	ok
+0					
+double-vector	1	2048	8	c2c	ok
+0					
+double-vector	1	2048	16	c2c	ok
+0					
+double-vector	1	2048	32	c2c	ok
+0					
+double-vector	1	2048	64	c2c	ok
+0					
+double-vector	1	2048	128	c2c	ok
+0					
+double-vector	1	4096	1	c2c	ok
+0					
+double-vector	1	4096	2	c2c	ok
+0					
+double-vector	1	4096	4	c2c	ok
+0					
+double-vector	1	4096	8	c2c	ok
+0					
+double-vector	1	4096	16	c2c	ok
+0					
+double-vector	1	4096	32	c2c	ok
+0					
+double-vector	1	4096	64	c2c	ok
+0					
+double-vector	1	4096	128	c2c	ok
+0					
+double-vector	1	8192	1	c2c	ok
+0					
+double-vector	1	8192	2	c2c	ok
+0					
+double-vector	1	8192	4	c2c	ok
+0					
+double-vector	1	8192	8	c2c	ok
+0					
+double-vector	1	8192	16	c2c	ok
+0					
+double-vector	1	8192	32	c2c	ok
+0					
+double-vector	1	8192	64	c2c	ok
+0					
+double-vector	1	8192	128	c2c	ok
+0					
+double-vector	1	16384	1	c2c	ok
+0					
+double-vector	1	16384	2	c2c	ok
+0					
+double-vector	1	16384	4	c2c	ok
+0					
+double-vector	1	16384	8	c2c	ok
+0					
+double-vector	1	16384	16	c2c	ok
+0					
+double-vector	1	16384	32	c2c	ok
+0					
+double-vector	1	16384	64	c2c	ok
+0					
+double-vector	1	16384	128	c2c	ok
+0					
+double-vector	1	32768	1	c2c	ok
+0					
+double-vector	1	32768	2	c2c	ok
+0					
+double-vector	1	32768	4	c2c	ok
+0					
+double-vector	1	32768	8	c2c	ok
+0					
+double-vector	1	32768	16	c2c	ok
+0					
+double-vector	1	32768	32	c2c	ok
+0					
+double-vector	1	32768	64	c2c	ok
+0					
+double-vector	1	32768	128	c2c	ok
+0					
+double-vector	1	65536	1	c2c	ok
+0					
+double-vector	1	65536	2	c2c	ok
+0					
+double-vector	1	65536	4	c2c	ok
+0					
+double-vector	1	65536	8	c2c	ok
+0					
+double-vector	1	65536	16	c2c	ok
+0					
+double-vector	1	65536	32	c2c	ok
+0					
+double-vector	1	65536	64	c2c	ok
+0					
+double-vector	1	65536	128	c2c	ok
+0					
+double-vector	2	512	1	c2c	ok
+0					
+double-vector	2	512	2	c2c	ok
+0					
+double-vector	2	512	4	c2c	ok
+0					
+double-vector	2	512	8	c2c	ok
+0					
+double-vector	2	512	16	c2c	ok
+0					
+double-vector	2	512	32	c2c	ok
+0					
+double-vector	2	512	64	c2c	ok
+0					
+double-vector	2	512	128	c2c	ok
+0					
+double-vector	2	1024	1	c2c	ok
+0					
+double-vector	2	1024	2	c2c	ok
+0					
+double-vector	2	1024	4	c2c	ok
+0					
+double-vector	2	1024	8	c2c	ok
+0					
+double-vector	2	1024	16	c2c	ok
+0					
+double-vector	2	1024	32	c2c	ok
+0					
+double-vector	2	1024	64	c2c	ok
+0					
+double-vector	2	1024	128	c2c	ok
+0					
+double-vector	2	2048	1	c2c	ok
+0					
+double-vector	2	2048	2	c2c	ok
+0					
+double-vector	2	2048	4	c2c	ok
+0					
+double-vector	2	2048	8	c2c	ok
+0					
+double-vector	2	2048	16	c2c	ok
+0					
+double-vector	2	2048	32	c2c	ok
+0					
+double-vector	2	2048	64	c2c	ok
+0					
+double-vector	2	2048	128	c2c	ok
+0					
+double-vector	2	4096	1	c2c	ok
+0					
+double-vector	2	4096	2	c2c	ok
+0					
+double-vector	2	4096	4	c2c	ok
+0					
+double-vector	2	4096	8	c2c	ok
+0					
+double-vector	2	4096	16	c2c	ok
+0					
+double-vector	2	4096	32	c2c	ok
+0					
+double-vector	2	4096	64	c2c	ok
+0					
+double-vector	2	4096	128	c2c	ok
+0					
+double-vector	3	64	1	c2c	ok
+0					
+double-vector	3	64	2	c2c	ok
+0					
+double-vector	3	64	4	c2c	ok
+0					
+double-vector	3	64	8	c2c	ok
+0					
+double-vector	3	64	16	c2c	ok
+0					
+double-vector	3	64	32	c2c	ok
+0					
+double-vector	3	64	64	c2c	ok
+0					
+double-vector	3	64	128	c2c	ok
+0					
+double-vector	3	128	1	c2c	ok
+0					
+double-vector	3	128	2	c2c	ok
+0					
+double-vector	3	128	4	c2c	ok
+0					
+double-vector	3	128	8	c2c	ok
+0					
+double-vector	3	128	16	c2c	ok
+0					
+double-vector	3	128	32	c2c	ok
+0					
+double-vector	3	128	64	c2c	ok
+0					
+double-vector	3	128	128	c2c	ok
+0					
+double-vector	3	256	1	c2c	ok
+0					
+double-vector	3	256	2	c2c	ok
+0					
+double-vector	3	256	4	c2c	ok
+0					
+double-vector	3	256	8	c2c	ok
+0					
+double-vector	3	256	16	c2c	ok
+0					
+double-vector	3	256	32	c2c	ok
+0					
+double-vector	3	256	64	c2c	ok
+0					
+double-vector	3	256	128	c2c	ok
+0					
+double-vector	3	512	1	c2c	ok
+0					
+double-vector	3	512	2	c2c	ok
+0					
+double-vector	3	512	4	c2c	ok
+0					
+double-vector	3	512	8	c2c	ok
+0					
+double-vector	3	512	16	c2c	ok
+0					
+double-vector	3	512	32	c2c	ok
+0					
+double-vector	3	512	64	c2c	ok
+0					
+double-vector	3	512	128	c2c	ok
+0					
+double-novector	1	512	1	c2c	ok
+0					
+double-novector	1	512	2	c2c	ok
+0					
+double-novector	1	512	4	c2c	ok
+0					
+double-novector	1	512	8	c2c	ok
+0					
+double-novector	1	512	16	c2c	ok
+0					
+double-novector	1	512	32	c2c	ok
+0					
+double-novector	1	512	64	c2c	ok
+0					
+double-novector	1	512	128	c2c	ok
+0					
+double-novector	1	1024	1	c2c	ok
+0					
+double-novector	1	1024	2	c2c	ok
+0					
+double-novector	1	1024	4	c2c	ok
+0					
+double-novector	1	1024	8	c2c	ok
+0					
+double-novector	1	1024	16	c2c	ok
+0					
+double-novector	1	1024	32	c2c	ok
+0					
+double-novector	1	1024	64	c2c	ok
+0					
+double-novector	1	1024	128	c2c	ok
+0					
+double-novector	1	2048	1	c2c	ok
+0					
+double-novector	1	2048	2	c2c	ok
+0					
+double-novector	1	2048	4	c2c	ok
+0					
+double-novector	1	2048	8	c2c	ok
+0					
+double-novector	1	2048	16	c2c	ok
+0					
+double-novector	1	2048	32	c2c	ok
+0					
+double-novector	1	2048	64	c2c	ok
+0					
+double-novector	1	2048	128	c2c	ok
+0					
+double-novector	1	4096	1	c2c	ok
+0					
+double-novector	1	4096	2	c2c	ok
+0					
+double-novector	1	4096	4	c2c	ok
+0					
+double-novector	1	4096	8	c2c	ok
+0					
+double-novector	1	4096	16	c2c	ok
+0					
+double-novector	1	4096	32	c2c	ok
+0					
+double-novector	1	4096	64	c2c	ok
+0					
+double-novector	1	4096	128	c2c	ok
+0					
+double-novector	1	8192	1	c2c	ok
+0					
+double-novector	1	8192	2	c2c	ok
+0					
+double-novector	1	8192	4	c2c	ok
+0					
+double-novector	1	8192	8	c2c	ok
+0					
+double-novector	1	8192	16	c2c	ok
+0					
+double-novector	1	8192	32	c2c	ok
+0					
+double-novector	1	8192	64	c2c	ok
+0					
+double-novector	1	8192	128	c2c	ok
+0					
+double-novector	1	16384	1	c2c	ok
+0					
+double-novector	1	16384	2	c2c	ok
+0					
+double-novector	1	16384	4	c2c	ok
+0					
+double-novector	1	16384	8	c2c	ok
+0					
+double-novector	1	16384	16	c2c	ok
+0					
+double-novector	1	16384	32	c2c	ok
+0					
+double-novector	1	16384	64	c2c	ok
+0					
+double-novector	1	16384	128	c2c	ok
+0					
+double-novector	1	32768	1	c2c	ok
+0					
+double-novector	1	32768	2	c2c	ok
+0					
+double-novector	1	32768	4	c2c	ok
+0					
+double-novector	1	32768	8	c2c	ok
+0					
+double-novector	1	32768	16	c2c	ok
+0					
+double-novector	1	32768	32	c2c	ok
+0					
+double-novector	1	32768	64	c2c	ok
+0					
+double-novector	1	32768	128	c2c	ok
+0					
+double-novector	1	65536	1	c2c	ok
+0					
+double-novector	1	65536	2	c2c	ok
+0					
+double-novector	1	65536	4	c2c	ok
+0					
+double-novector	1	65536	8	c2c	ok
+0					
+double-novector	1	65536	16	c2c	ok
+0					
+double-novector	1	65536	32	c2c	ok
+0					
+double-novector	1	65536	64	c2c	ok
+0					
+double-novector	1	65536	128	c2c	ok
+0					
+double-novector	2	512	1	c2c	ok
+0					
+double-novector	2	512	2	c2c	ok
+0					
+double-novector	2	512	4	c2c	ok
+0					
+double-novector	2	512	8	c2c	ok
+0					
+double-novector	2	512	16	c2c	ok
+0					
+double-novector	2	512	32	c2c	ok
+0					
+double-novector	2	512	64	c2c	ok
+0					
+double-novector	2	512	128	c2c	ok
+0					
+double-novector	2	1024	1	c2c	ok
+0					
+double-novector	2	1024	2	c2c	ok
+0					
+double-novector	2	1024	4	c2c	ok
+0					
+double-novector	2	1024	8	c2c	ok
+0					
+double-novector	2	1024	16	c2c	ok
+0					
+double-novector	2	1024	32	c2c	ok
+0					
+double-novector	2	1024	64	c2c	ok
+0					
+double-novector	2	1024	128	c2c	ok
+0					
+double-novector	2	2048	1	c2c	ok
+0					
+double-novector	2	2048	2	c2c	ok
+0					
+double-novector	2	2048	4	c2c	ok
+0					
+double-novector	2	2048	8	c2c	ok
+0					
+double-novector	2	2048	16	c2c	ok
+0					
+double-novector	2	2048	32	c2c	ok
+0					
+double-novector	2	2048	64	c2c	ok
+0					
+double-novector	2	2048	128	c2c	ok
+0					
+double-novector	2	4096	1	c2c	ok
+0					
+double-novector	2	4096	2	c2c	ok
+0					
+double-novector	2	4096	4	c2c	ok
+0					
+double-novector	2	4096	8	c2c	ok
+0					
+double-novector	2	4096	16	c2c	ok
+0					
+double-novector	2	4096	32	c2c	ok
+0					
+double-novector	2	4096	64	c2c	ok
+0					
+double-novector	2	4096	128	c2c	ok
+0					
+double-novector	3	64	1	c2c	ok
+0					
+double-novector	3	64	2	c2c	ok
+0					
+double-novector	3	64	4	c2c	ok
+0					
+double-novector	3	64	8	c2c	ok
+0					
+double-novector	3	64	16	c2c	ok
+0					
+double-novector	3	64	32	c2c	ok
+0					
+double-novector	3	64	64	c2c	ok
+0					
+double-novector	3	64	128	c2c	ok
+0					
+double-novector	3	128	1	c2c	ok
+0					
+double-novector	3	128	2	c2c	ok
+0					
+double-novector	3	128	4	c2c	ok
+0					
+double-novector	3	128	8	c2c	ok
+0					
+double-novector	3	128	16	c2c	ok
+0					
+double-novector	3	128	32	c2c	ok
+0					
+double-novector	3	128	64	c2c	ok
+0					
+double-novector	3	128	128	c2c	ok
+0					
+double-novector	3	256	1	c2c	ok
+0					
+double-novector	3	256	2	c2c	ok
+0					
+double-novector	3	256	4	c2c	ok
+0					
+double-novector	3	256	8	c2c	ok
+0					
+double-novector	3	256	16	c2c	ok
+0					
+double-novector	3	256	32	c2c	ok
+0					
+double-novector	3	256	64	c2c	ok
+0					
+double-novector	3	256	128	c2c	ok
+0					
+double-novector	3	512	1	c2c	ok
+0					
+double-novector	3	512	2	c2c	ok
+0					
+double-novector	3	512	4	c2c	ok
+0					
+double-novector	3	512	8	c2c	ok
+0					
+double-novector	3	512	16	c2c	ok
+0					
+double-novector	3	512	32	c2c	ok
+0					
+double-novector	3	512	64	c2c	ok
+0					
+double-novector	3	512	128	c2c	ok
+0					
+single-vector	1	512	1	c2c	ok
+0					
+single-vector	1	512	2	c2c	ok
+0					
+single-vector	1	512	4	c2c	ok
+0					
+single-vector	1	512	8	c2c	ok
+0					
+single-vector	1	512	16	c2c	ok
+0					
+single-vector	1	512	32	c2c	ok
+0					
+single-vector	1	512	64	c2c	ok
+0					
+single-vector	1	512	128	c2c	ok
+0					
+single-vector	1	1024	1	c2c	ok
+0					
+single-vector	1	1024	2	c2c	ok
+0					
+single-vector	1	1024	4	c2c	ok
+0					
+single-vector	1	1024	8	c2c	ok
+0					
+single-vector	1	1024	16	c2c	ok
+0					
+single-vector	1	1024	32	c2c	ok
+0					
+single-vector	1	1024	64	c2c	ok
+0					
+single-vector	1	1024	128	c2c	ok
+0					
+single-vector	1	2048	1	c2c	ok
+0					
+single-vector	1	2048	2	c2c	ok
+0					
+single-vector	1	2048	4	c2c	ok
+0					
+single-vector	1	2048	8	c2c	ok
+0					
+single-vector	1	2048	16	c2c	ok
+0					
+single-vector	1	2048	32	c2c	ok
+0					
+single-vector	1	2048	64	c2c	ok
+0					
+single-vector	1	2048	128	c2c	ok
+0					
+single-vector	1	4096	1	c2c	ok
+0					
+single-vector	1	4096	2	c2c	ok
+0					
+single-vector	1	4096	4	c2c	ok
+0					
+single-vector	1	4096	8	c2c	ok
+0					
+single-vector	1	4096	16	c2c	ok
+0					
+single-vector	1	4096	32	c2c	ok
+0					
+single-vector	1	4096	64	c2c	ok
+0					
+single-vector	1	4096	128	c2c	ok
+0					
+single-vector	1	8192	1	c2c	ok
+0					
+single-vector	1	8192	2	c2c	ok
+0					
+single-vector	1	8192	4	c2c	ok
+0					
+single-vector	1	8192	8	c2c	ok
+0					
+single-vector	1	8192	16	c2c	ok
+0					
+single-vector	1	8192	32	c2c	ok
+0					
+single-vector	1	8192	64	c2c	ok
+0					
+single-vector	1	8192	128	c2c	ok
+0					
+single-vector	1	16384	1	c2c	ok
+0					
+single-vector	1	16384	2	c2c	ok
+0					
+single-vector	1	16384	4	c2c	ok
+0					
+single-vector	1	16384	8	c2c	ok
+0					
+single-vector	1	16384	16	c2c	ok
+0					
+single-vector	1	16384	32	c2c	ok
+0					
+single-vector	1	16384	64	c2c	ok
+0					
+single-vector	1	16384	128	c2c	ok
+0					
+single-vector	1	32768	1	c2c	ok
+0					
+single-vector	1	32768	2	c2c	ok
+0					
+single-vector	1	32768	4	c2c	ok
+0					
+single-vector	1	32768	8	c2c	ok
+0					
+single-vector	1	32768	16	c2c	ok
+0					
+single-vector	1	32768	32	c2c	ok
+0					
+single-vector	1	32768	64	c2c	ok
+0					
+single-vector	1	32768	128	c2c	ok
+0					
+single-vector	1	65536	1	c2c	ok
+0					
+single-vector	1	65536	2	c2c	ok
+0					
+single-vector	1	65536	4	c2c	ok
+0					
+single-vector	1	65536	8	c2c	ok
+0					
+single-vector	1	65536	16	c2c	ok
+0					
+single-vector	1	65536	32	c2c	ok
+0					
+single-vector	1	65536	64	c2c	ok
+0					
+single-vector	1	65536	128	c2c	ok
+0					
+single-vector	2	512	1	c2c	ok
+0					
+single-vector	2	512	2	c2c	ok
+0					
+single-vector	2	512	4	c2c	ok
+0					
+single-vector	2	512	8	c2c	ok
+0					
+single-vector	2	512	16	c2c	ok
+0					
+single-vector	2	512	32	c2c	ok
+0					
+single-vector	2	512	64	c2c	ok
+0					
+single-vector	2	512	128	c2c	ok
+0					
+single-vector	2	1024	1	c2c	ok
+0					
+single-vector	2	1024	2	c2c	ok
+0					
+single-vector	2	1024	4	c2c	ok
+0					
+single-vector	2	1024	8	c2c	ok
+0					
+single-vector	2	1024	16	c2c	ok
+0					
+single-vector	2	1024	32	c2c	ok
+0					
+single-vector	2	1024	64	c2c	ok
+0					
+single-vector	2	1024	128	c2c	ok
+0					
+single-vector	2	2048	1	c2c	ok
+0					
+single-vector	2	2048	2	c2c	ok
+0					
+single-vector	2	2048	4	c2c	ok
+0					
+single-vector	2	2048	8	c2c	ok
+0					
+single-vector	2	2048	16	c2c	ok
+0					
+single-vector	2	2048	32	c2c	ok
+0					
+single-vector	2	2048	64	c2c	ok
+0					
+single-vector	2	2048	128	c2c	ok
+0					
+single-vector	2	4096	1	c2c	ok
+0					
+single-vector	2	4096	2	c2c	ok
+0					
+single-vector	2	4096	4	c2c	ok
+0					
+single-vector	2	4096	8	c2c	ok
+0					
+single-vector	2	4096	16	c2c	ok
+0					
+single-vector	2	4096	32	c2c	ok
+0					
+single-vector	2	4096	64	c2c	ok
+0					
+single-vector	2	4096	128	c2c	ok
+0					
+single-vector	3	64	1	c2c	ok
+0					
+single-vector	3	64	2	c2c	ok
+0					
+single-vector	3	64	4	c2c	ok
+0					
+single-vector	3	64	8	c2c	ok
+0					
+single-vector	3	64	16	c2c	ok
+0					
+single-vector	3	64	32	c2c	ok
+0					
+single-vector	3	64	64	c2c	ok
+0					
+single-vector	3	64	128	c2c	ok
+0					
+single-vector	3	128	1	c2c	ok
+0					
+single-vector	3	128	2	c2c	ok
+0					
+single-vector	3	128	4	c2c	ok
+0					
+single-vector	3	128	8	c2c	ok
+0					
+single-vector	3	128	16	c2c	ok
+0					
+single-vector	3	128	32	c2c	ok
+0					
+single-vector	3	128	64	c2c	ok
+0					
+single-vector	3	128	128	c2c	ok
+0					
+single-vector	3	256	1	c2c	ok
+0					
+single-vector	3	256	2	c2c	ok
+0					
+single-vector	3	256	4	c2c	ok
+0					
+single-vector	3	256	8	c2c	ok
+0					
+single-vector	3	256	16	c2c	ok
+0					
+single-vector	3	256	32	c2c	ok
+0					
+single-vector	3	256	64	c2c	ok
+0					
+single-vector	3	256	128	c2c	ok
+0					
+single-vector	3	512	1	c2c	ok
+0					
+single-vector	3	512	2	c2c	ok
+0					
+single-vector	3	512	4	c2c	ok
+0					
+single-vector	3	512	8	c2c	ok
+0					
+single-vector	3	512	16	c2c	ok
+0					
+single-vector	3	512	32	c2c	ok
+0					
+single-vector	3	512	64	c2c	ok
+0					
+single-vector	3	512	128	c2c	ok
+0					
+single-novector	1	512	1	c2c	ok
+0					
+single-novector	1	512	2	c2c	ok
+0					
+single-novector	1	512	4	c2c	ok
+0					
+single-novector	1	512	8	c2c	ok
+0					
+single-novector	1	512	16	c2c	ok
+0					
+single-novector	1	512	32	c2c	ok
+0					
+single-novector	1	512	64	c2c	ok
+0					
+single-novector	1	512	128	c2c	ok
+0					
+single-novector	1	1024	1	c2c	ok
+0					
+single-novector	1	1024	2	c2c	ok
+0					
+single-novector	1	1024	4	c2c	ok
+0					
+single-novector	1	1024	8	c2c	ok
+0					
+single-novector	1	1024	16	c2c	ok
+0					
+single-novector	1	1024	32	c2c	ok
+0					
+single-novector	1	1024	64	c2c	ok
+0					
+single-novector	1	1024	128	c2c	ok
+0					
+single-novector	1	2048	1	c2c	ok
+0					
+single-novector	1	2048	2	c2c	ok
+0					
+single-novector	1	2048	4	c2c	ok
+0					
+single-novector	1	2048	8	c2c	ok
+0					
+single-novector	1	2048	16	c2c	ok
+0					
+single-novector	1	2048	32	c2c	ok
+0					
+single-novector	1	2048	64	c2c	ok
+0					
+single-novector	1	2048	128	c2c	ok
+0					
+single-novector	1	4096	1	c2c	ok
+0					
+single-novector	1	4096	2	c2c	ok
+0					
+single-novector	1	4096	4	c2c	ok
+0					
+single-novector	1	4096	8	c2c	ok
+0					
+single-novector	1	4096	16	c2c	ok
+0					
+single-novector	1	4096	32	c2c	ok
+0					
+single-novector	1	4096	64	c2c	ok
+0					
+single-novector	1	4096	128	c2c	ok
+0					
+single-novector	1	8192	1	c2c	ok
+0					
+single-novector	1	8192	2	c2c	ok
+0					
+single-novector	1	8192	4	c2c	ok
+0					
+single-novector	1	8192	8	c2c	ok
+0					
+single-novector	1	8192	16	c2c	ok
+0					
+single-novector	1	8192	32	c2c	ok
+0					
+single-novector	1	8192	64	c2c	ok
+0					
+single-novector	1	8192	128	c2c	ok
+0					
+single-novector	1	16384	1	c2c	ok
+0					
+single-novector	1	16384	2	c2c	ok
+0					
+single-novector	1	16384	4	c2c	ok
+0					
+single-novector	1	16384	8	c2c	ok
+0					
+single-novector	1	16384	16	c2c	ok
+0					
+single-novector	1	16384	32	c2c	ok
+0					
+single-novector	1	16384	64	c2c	ok
+0					
+single-novector	1	16384	128	c2c	ok
+0					
+single-novector	1	32768	1	c2c	ok
+0					
+single-novector	1	32768	2	c2c	ok
+0					
+single-novector	1	32768	4	c2c	ok
+0					
+single-novector	1	32768	8	c2c	ok
+0					
+single-novector	1	32768	16	c2c	ok
+0					
+single-novector	1	32768	32	c2c	ok
+0					
+single-novector	1	32768	64	c2c	ok
+0					
+single-novector	1	32768	128	c2c	ok
+0					
+single-novector	1	65536	1	c2c	ok
+0					
+single-novector	1	65536	2	c2c	ok
+0					
+single-novector	1	65536	4	c2c	ok
+0					
+single-novector	1	65536	8	c2c	ok
+0					
+single-novector	1	65536	16	c2c	ok
+0					
+single-novector	1	65536	32	c2c	ok
+0					
+single-novector	1	65536	64	c2c	ok
+0					
+single-novector	1	65536	128	c2c	ok
+0					
+single-novector	2	512	1	c2c	ok
+0					
+single-novector	2	512	2	c2c	ok
+0					
+single-novector	2	512	4	c2c	ok
+0					
+single-novector	2	512	8	c2c	ok
+0					
+single-novector	2	512	16	c2c	ok
+0					
+single-novector	2	512	32	c2c	ok
+0					
+single-novector	2	512	64	c2c	ok
+0					
+single-novector	2	512	128	c2c	ok
+0					
+single-novector	2	1024	1	c2c	ok
+0					
+single-novector	2	1024	2	c2c	ok
+0					
+single-novector	2	1024	4	c2c	ok
+0					
+single-novector	2	1024	8	c2c	ok
+0					
+single-novector	2	1024	16	c2c	ok
+0					
+single-novector	2	1024	32	c2c	ok
+0					
+single-novector	2	1024	64	c2c	ok
+0					
+single-novector	2	1024	128	c2c	ok
+0					
+single-novector	2	2048	1	c2c	ok
+0					
+single-novector	2	2048	2	c2c	ok
+0					
+single-novector	2	2048	4	c2c	ok
+0					
+single-novector	2	2048	8	c2c	ok
+0					
+single-novector	2	2048	16	c2c	ok
+0					
+single-novector	2	2048	32	c2c	ok
+0					
+single-novector	2	2048	64	c2c	ok
+0					
+single-novector	2	2048	128	c2c	ok
+0					
+single-novector	2	4096	1	c2c	ok
+0					
+single-novector	2	4096	2	c2c	ok
+0					
+single-novector	2	4096	4	c2c	ok
+0					
+single-novector	2	4096	8	c2c	ok
+0					
+single-novector	2	4096	16	c2c	ok
+0					
+single-novector	2	4096	32	c2c	ok
+0					
+single-novector	2	4096	64	c2c	ok
+0					
+single-novector	2	4096	128	c2c	ok
+0					
+single-novector	3	64	1	c2c	ok
+0					
+single-novector	3	64	2	c2c	ok
+0					
+single-novector	3	64	4	c2c	ok
+0					
+single-novector	3	64	8	c2c	ok
+0					
+single-novector	3	64	16	c2c	ok
+0					
+single-novector	3	64	32	c2c	ok
+0					
+single-novector	3	64	64	c2c	ok
+0					
+single-novector	3	64	128	c2c	ok
+0					
+single-novector	3	128	1	c2c	ok
+0					
+single-novector	3	128	2	c2c	ok
+0					
+single-novector	3	128	4	c2c	ok
+0					
+single-novector	3	128	8	c2c	ok
+0					
+single-novector	3	128	16	c2c	ok
+0					
+single-novector	3	128	32	c2c	ok
+0					
+single-novector	3	128	64	c2c	ok
+0					
+single-novector	3	128	128	c2c	ok
+0					
+single-novector	3	256	1	c2c	ok
+0					
+single-novector	3	256	2	c2c	ok
+0					
+single-novector	3	256	4	c2c	ok
+0					
+single-novector	3	256	8	c2c	ok
+0					
+single-novector	3	256	16	c2c	ok
+0					
+single-novector	3	256	32	c2c	ok
+0					
+single-novector	3	256	64	c2c	ok
+0					
+single-novector	3	256	128	c2c	ok
+0					
+single-novector	3	512	1	c2c	ok
+0					
+single-novector	3	512	2	c2c	ok
+0					
+single-novector	3	512	4	c2c	ok
+0					
+single-novector	3	512	8	c2c	ok
+0					
+single-novector	3	512	16	c2c	ok
+0					
+single-novector	3	512	32	c2c	ok
+0					
+single-novector	3	512	64	c2c	ok
+0					
+single-novector	3	512	128	c2c	ok
+0					

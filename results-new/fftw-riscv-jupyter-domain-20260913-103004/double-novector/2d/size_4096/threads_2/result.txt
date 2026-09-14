@@ -1,0 +1,1 @@
+c2c 2d 4096x4096 avg_seconds=2.405841371235 iterations=30 threads=2

@@ -1,0 +1,1 @@
+c2c 1d 1024 avg_seconds=0.000525210192 iterations=30 threads=16

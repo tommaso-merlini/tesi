@@ -1,0 +1,1 @@
+c2c 3d 128x128x128 avg_seconds=0.011319905364 iterations=30 threads=2

@@ -1,3 +1,40 @@
 [X] plotta i risultati
 [X] dai parametri dei benchmark che ti ho dato, stima la memoria che viene utilizzata
-[O] Per ogni macchina considerata, per ogni tipo di dominio 1d, 2d, 3d calcolare la dimensione minima (N) tale per cui il problema non fitti esattamente nella cache
+[X] Per ogni macchina considerata, per ogni tipo di dominio 1d, 2d, 3d calcolare la dimensione minima (N) tale per cui il problema non fitti esattamente nella cache
+
+
+
+
+------------
+
+
+64 3d = 512 2d
+256 3d = 4096 2d
+
+prendiamo 256 perche' e' la size piu' piccola che supera la cache in double: probabile invece che nella single il problema fitti nella cache => la single e' piu' veloce
+
+- se hanno lo stesso scaling:
+	1) facciamo 3 grafici:
+		a) sg2044 vs sg2042: c2c - 3d - novect - single/double - N = 256 
+			=> plot con y = tempo, x = thread con 4 linee (1 single sg2044, 1 double 2044, 1 single sg2042, 1 double 2042)
+			
+		b) sg2044 vs sg2042: c2c - 2d - novect - single/double - N = 4096 
+			=> plot con y = tempo, x = thread con 4 linee (1 single sg2044, 1 double 2044, 1 single sg2042, 1 double 2042)
+			
+		c) sg2044 vs sg2042: c2c - 1d - novect - single/double - N = 16M 
+			=> plot con y = tempo, x = thread con 4 linee (1 single sg2044, 1 double 2044, 1 single sg2042, 1 double 2042)
+
+		=> scrivere dai grafici che si evince che lo scaling si mantiene costante rispetto a 1d, 2d, 3d e possiamo dire 
+		   che across le due macchine lo scaling e' costante/invariante across both the machine and the domain composition
+		   
+		=> scrivere e valutare la differenza tra double e single precision nelle due macchine: gap costante? chi ci mette di piu? il gap tra sp e dp tra 2042 e 2044 e' lo stesso?
+		
+- differenza tra queste 2 macchine riscv e arm, x86. fissiamo il dominio a 3D c2c
+	- scegliere che tipo di grafico fare per questa tipologia di benchmark
+	
+	4 grafici (uno per macchina), 4 linea per grafico vect/no vect, single/double. macchine:
+		- sg2044
+		- sg2042
+		- arm
+		- x86
+
